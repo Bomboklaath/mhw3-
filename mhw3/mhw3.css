@@ -1,0 +1,260 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+margin: 0;
+color: greenyellow;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+header{
+
+background-image: url(https://cdn.discordapp.com/attachments/621017678945189941/823198888831090728/2310010.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color:rgba(0, 0, 0, 0.3); 
+position: relative;
+font-size: 100%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 600px;
+
+
+}
+
+header nav{
+   display: flex;
+   position: fixed;
+   background-color: rgba(18, 85, 10, 0.377);
+   top: 0;
+   left: 0;
+   right: 0;
+   justify-content: space-between;
+   align-items: center;
+   font-size:  70%;
+   padding: 10px;
+}
+
+nav a{
+  padding: 10px;
+}
+
+#Logo img{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#links {
+    margin: 30px;
+
+}
+
+a{
+  cursor: pointer;
+}
+
+a.button {
+    padding: 7px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+  a.button:hover{
+background-color: chartreuse;
+color: black;
+  }
+
+  h1 a.button{
+    border: 1;
+    background-color:green;
+    display: inline-block;
+    font-size: 60%;
+    padding: 7px;
+    font-family: 'Lobster', Verdana;
+  }
+
+  header h1 {
+    font-weight: normal;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 1px;
+    
+  }
+
+
+
+#menu{
+  display: none;
+}
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+#sium{
+  font-family: 'Zen Dots';
+  letter-spacing: 10px;
+}
+
+#mhw3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: red;
+  font-family: helvetica;
+}
+
+#mhw3 .container {
+  margin: 10px;
+  border: 3px solid rgb(68, 66, 66);
+  border-radius: 10px;
+  padding: 5px;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif monospace;
+}
+
+#mhw3 .container h1{
+   font-family: 'Oswald', sans-serif;
+    color: rgb(31, 26, 26);
+    font-size: 15px;
+    font-style: normal;
+}
+
+section{
+  background-color: rgb(68, 66, 66);
+  text-align: center;
+  border: 2px solid greenyellow;
+}
+#tastocuore{
+height: 30px;
+width: 30px;
+}
+
+#imm{
+  height: 500px;
+width: 500px;
+}
+
+.hidden{
+  display: none !important;
+}
+
+#lista{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#title  {
+color: gold;
+}
+
+.removecuore{
+  height: 30px;
+  width: 30px;
+}
+
+#screen{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+
+}
+
+#screen div{
+  margin: 10px;
+}
+#screen div img{
+  width: 30vw;
+}
+
+
+#v{
+  font-family: 'Zen Dots';
+  color: blueviolet;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+form{
+  text-align: end;
+  
+}
+
+  footer{
+    background-color:  rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 50%  
+  }
+
+  .flexfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+  }
+  footer img{
+    max-width: 8%;
+    max-height: 8%;
+  }
+
+  footer h3{
+    color: rgb(11, 216, 72);
+    font-size: 2em;
+    font-family: 'staatliches',sans-serif;
+  }
+
+  
+
+
+  @media(max-width: 500px){
+    #Links{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+
+    #logo{
+      max-width: 10%;
+      max-height: 10%;
+    }
+
+    body{
+        font-size: 20px;
+    }
+
+    header{
+        width: 100%;
+        background-size: cover;
+        line-height: 1.2;
+        flex-direction: column;
+    }
+        
+    
+    
+
+   
+footer{
+  width: 100%;
+}
+    
+}
